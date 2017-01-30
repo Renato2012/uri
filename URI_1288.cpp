@@ -11,7 +11,6 @@ int maximo(int a, int b){
 }
 
 bool calculaAtaque(int N, int K, int R, int vetX[], int vetY[]){
-
     int mat[N + 1][K + 1];
     for(int i = 0; i < N; i++)      // inicializa 1ª linha com zero.
         mat[0][i] = 0;
